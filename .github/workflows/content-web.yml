@@ -44,4 +44,4 @@ jobs:
        dockerfile: '${{ env.dockerfilePath }}/Dockerfile'
        registry: ${{ env.containerRegistry }}
        repository: ${{ env.imageRepository }}
-   tags: ${{ env.tag }},latest
+       tags: ${{ env.tag }},latest
